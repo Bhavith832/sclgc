@@ -7,8 +7,9 @@ q=['1.What is the capital city of india?',
 ans=['delhi','tiger','modi','markzukerburg','2004']
 for x in q:
     print(x)
-    user_ans=input('enter the answer:')
+    user_ans=input('enter the answer:').lower()
     if user_ans in ans:
         print("correct answer.")
     else:
         print("wrong answer.")
+print('percentage',((x/(x+q))*100))
