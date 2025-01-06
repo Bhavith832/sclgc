@@ -8,3 +8,5 @@ elif BMI >= 25 and BMI < 29.9:
     print("You are in overweight.")
 elif BMI >= 30:
     print("You are obese.")
+else:
+    print("Go to the hospital")
