@@ -1,0 +1,10 @@
+username = "Bhavith"
+password = 123456
+
+username = str(input("enter the username:"))
+password = int(input("Enter the password:"))
+
+if username == username and password == password:
+    print("Acess Granted.")
+else:
+    print("Acess Denied")
