@@ -1,2 +1,3 @@
-for x in range(10,1):
-    print(x)
+lst = [10,20,30,40,50]
+lst.pop()
+print(lst)
