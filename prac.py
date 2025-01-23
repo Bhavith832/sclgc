@@ -1,3 +1,8 @@
-lst = [10,20,30,40,50]
-lst.pop()
-print(lst)
+for num in range(1,21):
+    print()
+    print(f"table of {num}:")
+  
+    for i in range(1,11):
+         print(f"{num} x {i} = {num * i}")
+        #  print()
+    
