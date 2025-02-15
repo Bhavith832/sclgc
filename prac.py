@@ -47,16 +47,4 @@
 # i.use_keyboard()
 # i.send_message()
 # i.receive_message()
-# print("Enter the number:")
-# num1 = int(input())
-# print(num1)
-# a=2.5
-# b=2.5
-# print(a*b)
-# a=2
-# b=5
-# a,b=b,a
-# print("a is:",a,"b is:",b)
-# a = "110"
-# b = "011"
-# print(bin(int(a,2)+int(b,2))[2:])
+
