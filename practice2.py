@@ -1,2 +1,5 @@
-for i in range(10,0,-1):
-    print(i)
+num = 10
+while num<30:
+    if num % 2 == 0:
+        print(num)
+    num += 1
