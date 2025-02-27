@@ -1,5 +1,2 @@
-num = 10
-while num<30:
-    if num % 2 == 0:
-        print(num)
-    num += 1
+number = [1,2,3,4,5]
+print(sum(number))
