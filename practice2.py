@@ -1,6 +1,10 @@
-def remove_duplicates(lst):
-    return list(dict.fromkeys(lst))  # Uses dict to maintain order and remove duplicates
+lst1 = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+lst2 = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+for i in lst1:
+    if i % 2 == 0:
+        print(i)
+print("odd numbers.")
 
-# Example usage
-lst = [1, 2, 3, 4, 3, 2, 5, 6, 5, 6, 7]
-print(remove_duplicates(lst))  # Output: [1, 2, 3, 4, 5, 6, 7]
+for i in lst2:
+    if i % 2 != 0:
+        print(i)
